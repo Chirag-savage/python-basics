@@ -35,9 +35,11 @@ print(name.isalpha())  #check if there is alphabetical character or not
 print(name.isalnum())  #check i fthere are alphabet or numeric character in string
 print(name.swapcase())  #swap the case of every character in string
 print(name.find('h'))
-print(name.find('ello'))
+print(name.find('O'))
 print(name.replace('h','k'))
-
+print(name.upper())
+print(name.lower())
+print('e' in name)
 #LEN FUNTION
 print(len(name)) #find the lenght of the strings
 
